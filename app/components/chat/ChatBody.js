@@ -5,9 +5,7 @@ export default class ChatBody extends Component {
     render() {
         return (
             <div className="chat-body">
-                body
-                <Message who="bot" />
-                <Message who="user" />
+                {this.props.messages.map((message) => <Message who={message.name} message={message.body} />)}
             </div>
         );
     }
