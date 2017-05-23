@@ -4,7 +4,7 @@ import Message from './Message';
 export default class ChatBody extends Component {
     render() {
         return (
-            <div>
+            <div className="chat-body">
                 body
                 <Message who="bot" />
                 <Message who="user" />

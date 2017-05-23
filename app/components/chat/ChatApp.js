@@ -4,8 +4,9 @@ import { ChatBody, InputField } from './';
 export default class Chat extends Component {
     render() {
         return (
-            <div>
+            <div className="chat-app">
                 <ChatBody/>
+                <hr/>
                 <InputField/>
             </div>
         );
