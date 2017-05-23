@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ChatApp from './components/chat/ChatApp';
+import ChatApp from './chat/ChatApp';
 
 export default class App extends Component {
     render() {
